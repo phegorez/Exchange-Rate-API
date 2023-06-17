@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    text-align: right;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}

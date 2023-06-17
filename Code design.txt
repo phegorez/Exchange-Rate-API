@@ -1,0 +1,28 @@
+//1.Include all elements & API Url
+
+//2. assigne event on 'change' and exchangeMoney function to select elements
+
+//3. Create exchangeMoney() fucntion
+//3.1 Test funtion with console.log('Hi'), If select has change console.log will send 'Hi' on console
+//3.2 Create variable to store main_currency & exchange_currency value   
+//3.3 Test main & exchange value with console.log('... =', main or exchange) -->
+//if work in console will show your selected currency
+//3.4 Create API variable to store APIUrl + main, In this case main = main_currency.value, This is current selected currency
+//3.5 Create Fetch() function to fetching api url and query data form url
+//3.6 After query data is referenc by main, You must compaire 2 currency by put exchange to data.jsonProp[*put here*] -->
+//jsonProp is Property you want to use, In this case is converstion_rates, This prop is show all exchangerate currency -->
+//But you want to comparie 2 currency (main & exchange) you must put exchange in [] after prop like this -->
+//data.convertion_rates[exchange]
+//3.7 Create rate variable to store data.convertion_rates[exchange]
+//3.8 Assigne rate_text show rate after comparie with innerHTML
+
+//4. assigne event on 'input' and exchangeMoney function to main & exchange input value
+
+
+//5 Add caluration value in exchange_input with main_input_value * rate and show by assigne in exchange_input.value
+
+//6 Assign event on 'click' to swap_currency by without parameter
+//6.1 Create temp variable to store main_currency.value (current selected on main_currency)
+//6.2 Assigne main_currency.value = exchange_currency.value
+//6.3 Assigne exchange_currency.value = temp
+
